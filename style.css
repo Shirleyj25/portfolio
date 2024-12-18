@@ -1,0 +1,152 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #e8f0f2;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: #3b5998; /* Deep Blue */
+    color: white;
+    padding: 20px;
+    border-bottom: 4px solid #1c3e72;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcd00; /* Yellow on hover */
+}
+
+/* Section Styles */
+section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+section h2 {
+    color: #3b5998;
+    font-size: 1.8em;
+    border-bottom: 2px solid #3b5998;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.social a {
+    text-decoration: none;
+    color: #3b5998;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social a:hover {
+    color: #ffcd00;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1c3e72;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Resume Page Specific */
+.resume h3 {
+    margin-top: 20px;
+    color: #3b5998;
+    font-size: 1.5em;
+}
+
+.resume ul li {
+    margin-left: 20px;
+    font-size: 1.1em;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #1c3e72;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
